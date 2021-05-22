@@ -1,0 +1,88 @@
+html, body {
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+}
+.hero {
+    scroll-snap-align: end;
+    scroll-snap-stop:normal;
+}
+
+.image {
+    height: 100%;
+    width: 60%;
+    border: 1px grey;
+    border-radius: 7px;
+    box-shadow: 0 0.5em 1em -0.125em rgba(black, 0.1);
+}
+
+#contact-main-container .container{
+    width: 70%;
+}
+
+#contact-form-container.container {
+    padding-top: 5%;
+    width: 40%;
+}
+
+
+
+
+/* Do more research */
+/* Image Slices */
+
+/* .image-list {
+    position: absolute;
+    display: inline;
+    list-style-type: none;
+    width: 320px;
+    height: 200px;
+    overflow: hidden;
+}
+.image-list li {
+    float: left;
+}
+.image-list li a {
+    position: absolute;
+    display: block;
+    height: 200px;
+    width: 300px;
+    float:left;
+    cursor: default;
+}
+.image-list:first-child a {
+    clip-path: polygon(0 0, 0 100px, 100px 80px, 100px 0);
+}
+.image-list:last-child a {
+    
+  clip-path: polygon(0 0, 0 100px, 100px 80px, 100px 0);
+}
+.image-list li a img {
+    position: absolute;
+    height:  200px;
+    width:300px;
+    z-index: 1;
+}
+.image-list li a img.image-first {
+    position: absolute;
+    height:  200px;
+    width:300px;
+    z-index: 1;
+}
+.image-list li a img.image-second {
+    position: absolute;
+    height:  200px;
+    width:300px;
+    z-index: 2;
+}
+.image-list li a img.image-first {
+    position: absolute;
+    height:  200px;
+    width:300px;
+    z-index: 3;
+}
+.image-list li a:hover {
+    width:320px;
+}
+.image-list li a:hover img {
+    width:320px;
+} */
